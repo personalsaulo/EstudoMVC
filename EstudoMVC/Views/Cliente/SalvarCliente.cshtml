@@ -1,18 +1,23 @@
 ﻿@model EstudoMVC.Models.Cliente
 
 @{
+    /**/
+
+
     Layout = null;
+
 }
 
-<!DOCTYPE html>
 
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>SalvarCliente</title>
 </head>
 <body>
-    <div> 
+    <div>
         <fieldset>
             <legend>Cliente Salvo</legend>
             <div>
@@ -23,23 +28,43 @@
             </div>
             <div>
                 <label for="Nome">Nome</label>
+
             </div>
+
             <div>
+
                 <input type="text" value="@Model.Nome" id="Nome" name="Nome" />
+
             </div>
+
             <div>
+
                 <label for="Email">Email</label>
+
             </div>
+
             <div>
+
                 <input type="text" value="@Model.Email" id="Email" name="Email" />
+
             </div>
+
             <div>
+
                 <label for="Telefone">Telefone</label>
+
             </div>
+
             <div>
+
                 <input type="text" value="@Model.Telefone" id="Telefone" name="Telefone" />
+
             </div>
+
         </fieldset>
+
     </div>
+
 </body>
+
 </html>

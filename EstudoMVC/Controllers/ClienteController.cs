@@ -31,7 +31,7 @@ namespace EstudoMVC.Controllers
 
             return View(cliente);
         }
-
+        [HttpPost]
         public ActionResult SalvarCliente(Cliente cliente)
         {
             return View(cliente);
